@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  gap: 24px;
+}
+
+.text {
+  float: right;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.errorMsg {
+  color: red;
+  margin-bottom: 5px;
+  text-align: end;
+  font-size: 18px;
+}

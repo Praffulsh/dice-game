@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.topSection {
+  display: flex;
+  height: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+.scoreContainer {
+  max-width: 200px;
+  max-height: 150px;
+}
+.scoreContainer h1 {
+  font-size: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+.scoreContainer p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin-top: 40px;
+}
